@@ -42,13 +42,20 @@ function Container() {
   const formatTime = (time) => {
     if (isNaN(time)) return "0:00";
     const minutes = Math.floor(time / 60);
-    const seconds = Math.floor(time % 60).toString().padStart(2, "0");
+    const seconds = Math.floor(time % 60)
+      .toString()
+      .padStart(2, "0");
     return `${minutes}:${seconds}`;
   };
 
   return (
-    <div className="h-screen flex justify-center items-center bg-gray-900">
-      <div className="bg-white font-mono p-6 rounded-lg shadow-lg w-[350px]">
+    <div
+      className="h-screen bg-cover bg-center flex justify-center items-center"
+      style={{
+        backgroundImage: `url('https://www.pixground.com/wp-content/uploads/2024/07/Retrowave-Synthwave-Abstract-Sunset-4K-Wallpaper.jpg')`,
+      }}
+    >
+      <div className="bg-white/30 font-mono p-6 rounded-lg shadow-lg w-[350px]">
         {/* Logo */}
         <div className="p-5 flex justify-center">
           <img src="logo.png" alt="ECHO-BOX" className="w-72 h-auto" />
