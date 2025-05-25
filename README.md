@@ -21,7 +21,6 @@ A sleek and stylish music player web app built with React and Tailwind CSS. Echo
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - HTML5 Audio API
-- Optional: Fullscreen YouTube or MP4 video background
 
 ---
 
@@ -41,7 +40,6 @@ src/
 ---
 
 ## 🖼 Media Items Format
-
 ```js
 // mediaItems.js
 const mediaItems = [
@@ -55,14 +53,8 @@ const mediaItems = [
 
 export default mediaItems;
 
+ ``` 
 
-
----
-
-## 🖼 Media Items Format
-
-
-export default mediaItems;
 💡 Customization Tips
 🌅 To use a YouTube background, embed it using an <iframe> inside a relative container.
 
