@@ -25,7 +25,7 @@ A sleek and stylish music player web app built with React and Tailwind CSS. Echo
 ---
 
 ## 📁 Folder Structure
-
+```
 public/
 │
 ├── bg-video.mp4 # Optional background video
@@ -36,7 +36,7 @@ src/
 ├── mediaItems.js # Array of music track data
 ├── App.js
 └── Container.jsx # Main player component
-
+```
 ---
 
 ## 🖼 Media Items Format
@@ -55,12 +55,10 @@ export default mediaItems;
 
  ``` 
 
-💡 Customization Tips
-🌅 To use a YouTube background, embed it using an <iframe> inside a relative container.
+##💡 Customization Tips
+-🌅 To use a YouTube background, embed it using an <iframe> inside a relative container.
 
-🎬 To use a local video, add it to public/ and use an <video> tag.
+-🎬 To use a local video, add it to public/ and use an <video> tag.
 
-🎨 Tweak Tailwind classes for shadows, opacity, spacing, and more.
-
-🎨 Tweak Tailwind classes for shadows, opacity, spacing, and more.
+-🎨 Tweak Tailwind classes for shadows, opacity, spacing, and more.
 
