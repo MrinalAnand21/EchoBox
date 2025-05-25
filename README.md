@@ -1,10 +1,7 @@
-![image](https://github.com/user-attachments/assets/c032ecfb-375b-4d5e-94ff-00409b6a967c)
-
 # 🎧 Echo-Box
 
 A sleek and stylish music player web app built with React and Tailwind CSS. Echo-Box features track switching, play/pause controls, a visual progress bar, and a full-screen video or image background with frosted glass UI elements.
-
-![Echo-Box Screenshot](./screenshot.png) <!-- optional screenshot -->
+![image](https://github.com/user-attachments/assets/b469b278-7a38-4704-a0eb-0a85d48d7d1c)
 
 ---
 
@@ -41,10 +38,6 @@ src/
 ├── App.js
 └── Container.jsx # Main player component
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🖼 Media Items Format
@@ -61,36 +54,21 @@ const mediaItems = [
 ];
 
 export default mediaItems;
-🔧 Setup Instructions
-Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/echo-box.git
-cd echo-box
-Install dependencies
 
-bash
-Copy
-Edit
-npm install
-Run the app
 
-bash
-Copy
-Edit
-npm start
-Visit
+---
 
-arduino
-Copy
-Edit
-http://localhost:3000
+## 🖼 Media Items Format
+
+
+export default mediaItems;
 💡 Customization Tips
 🌅 To use a YouTube background, embed it using an <iframe> inside a relative container.
 
 🎬 To use a local video, add it to public/ and use an <video> tag.
+
+🎨 Tweak Tailwind classes for shadows, opacity, spacing, and more.
 
 🎨 Tweak Tailwind classes for shadows, opacity, spacing, and more.
 
