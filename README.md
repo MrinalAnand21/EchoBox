@@ -55,10 +55,4 @@ export default mediaItems;
 
  ``` 
 
-##💡 Customization Tips
--🌅 To use a YouTube background, embed it using an <iframe> inside a relative container.
-
--🎬 To use a local video, add it to public/ and use an <video> tag.
-
--🎨 Tweak Tailwind classes for shadows, opacity, spacing, and more.
 
